@@ -10,9 +10,9 @@ while (a < 1e7) //Перебор значений радиуса
         int i = 0;
         while (i < totalPoints)
         {
-            double x = random.NextDouble(); //Cлучайная координата X от 0 до 1
-            double y = random.NextDouble(); //Cлучайная координата Y от 0 до 1                                      
-            if (x * x + y * y <= 1) //Проверяем, попадает ли точка в единичную окружность
+            double x = random.NextDouble(); //Cлучайная координата X
+            double y = random.NextDouble(); //Cлучайная координата Y                                   
+            if (x * x + y * y <= 1) //Проверяем, попадает ли точка в окружность
             {
                 pointsInsideCircle++;
             }
